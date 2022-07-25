@@ -2,6 +2,7 @@ import React from 'react'
 import { Grid } from '@mui/material';
 import MainGridItem from './MainGridItem';
 import ProductInformation from './ProductInformation';
+import Pricing from './Pricing';
 
 export default function GridLayout() {
     return (
@@ -12,6 +13,9 @@ export default function GridLayout() {
 
             <Grid item>
                 <ProductInformation/>
+            </Grid>
+            <Grid item>
+                <Pricing/>
             </Grid>
         </Grid>
     );
